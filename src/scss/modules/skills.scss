@@ -10,13 +10,41 @@
   }
 }
 
-.skills-list {  
+.skills-list {
   font-style: normal;
-  font-size: 16px;
-  line-height: 24px;
   color: $lighterBlue;
   width: 288px;
   margin: 0 auto;
+  list-style-type: none;
+  padding: 0;
+  &__item {
+    padding: 0 0 0 24px;
+    margin: 0 0 16px;
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    &:before {
+      position: absolute;
+      display: block;
+      left: 0;
+      top: 7px;
+      content: "";
+      width: 12px;
+      height: 9px;
+      background: url("../assets/img/small-tick-green.svg");
+      .skills-list--light & {
+        background: url("../assets/img/small-tick-light.svg");
+      }
+      .skills-list--dot & {
+        width: 2px;
+        height: 2px;
+        border-radius: 50%;
+        top: 14px;
+        left: 5px;
+        background: $lighterBlue;
+      }
+    }
+  }
 }
 
 .skills-section {
