@@ -1,12 +1,14 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://tomasz-kwietniewski.github.io/og.png)
 
-# WTF Webpack Starter Kit 
+# Tomasz Kwietniewski - junior frontend developer
 
-Simple toolkit for your static websites development.
+My simple portfolio website.
 
-## How to use it?
+## Tools
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+- WTF Webpack starterkit
+- HTML + CSS + JS
+- GitHub API
 
 ## Available scripts
 
