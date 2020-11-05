@@ -1,4 +1,4 @@
-[![cover](https://tomasz-kwietniewski.github.io/public/og.png)](https://tomasz-kwietniewski.github.io/index.html)
+![cover](https://tomasz-kwietniewski.github.io/public/og.png)
 
 # Tomasz Kwietniewski - junior frontend developer
 
