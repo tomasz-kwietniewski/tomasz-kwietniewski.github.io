@@ -1,6 +1,6 @@
 import "../scss/main.scss";
 
-console.log("HELLO 🚀");
+console.log("Hi, I'm Tomasz - nice to meet You 🚀");
 
 fetch(
   "https://api.github.com/users/tomasz-kwietniewski/repos?sort=created&direction=asc"
@@ -31,6 +31,8 @@ fetch(
             <span class="project__label">demo:</span>
             <span>
               &lt;<a
+                target="_blank"
+                rel="noopener noreferrer"
                 class="project__link"
                 href="${homepage}"
                 title="${name} - demo"
@@ -42,6 +44,8 @@ fetch(
             <span class="project__label">github:</span>
             <span>
               &lt;<a
+                target="_blank"
+                rel="noopener noreferrer"
                 class="project__link"
                 href="${html_url}"
                 title="${name} - code"
